@@ -1,4 +1,7 @@
 # connect-the-dots 2 player game designed by Sid Sackson
+ws.js has the code for the game
+ws_1.js has my second approach to connect the diagonal points
+
 This was an assessment to me by an employer.
 Technical Assessment
 
