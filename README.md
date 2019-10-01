@@ -1,5 +1,5 @@
 # connect-the-dots 2 player game designed by Sid Sackson
-ws.js has the code for the game
+ws.js has the code for the game </br>
 ws_1.js has my second approach to connect the diagonal points
 
 This was an assessment to me by an employer.
@@ -67,9 +67,9 @@ iii.	Each “move” will have 2 state “valid” and “invalid”
 VALID_START_NODE, INVALID_START_NODE >> move1 
 VALID_END_NODE, INVALID_END_NODE >> move2
 
-if each “move” is “invalid”, it will go to previous “move” in this case,
-move 1 >> invalid, user must pick the first node again
-move 2 >> invalid, user must pick the first node again
+if each “move” is “invalid”, it will go to previous “move” in this case,</br>
+move 1 >> invalid, user must pick the first node again </br>
+move 2 >> invalid, user must pick the first node again </br>
 If “move 2” >> valid, Player will change from 1 >> 2 or 2 >> 1, then continue.
 c. Game core: All logic of game is processed with two function checkMove1Valid and checkMove2Valid.
 
