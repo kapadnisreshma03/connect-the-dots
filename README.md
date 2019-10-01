@@ -60,8 +60,10 @@ b. Server will with flow like
 i.	The first pick - move1
 ii.	The second pick - move2
 iii.	Each “move” will have 2 state “valid” and “invalid”
+
 VALID_START_NODE, INVALID_START_NODE >> move1 
 VALID_END_NODE, INVALID_END_NODE >> move2
+
 if each “move” is “invalid”, it will go to previous “move” in this case,
 move 1 >> invalid, user must pick the first node again
 move 2 >> invalid, user must pick the first node again
@@ -76,6 +78,7 @@ We process things here “Check the pair of node for draw line”
 •	Column is checked by two nodes have same X
 •	Row is checked by two nodes have same Y
 •	Cross is checked by 2x2 matrix and the path.
+
 After any line is drawn, we will store the position of node to server for checking future node.
 Ex : 
 Node 1 ( x : 0 , y : 0)
